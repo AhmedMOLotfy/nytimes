@@ -1,0 +1,50 @@
+name: nytimes
+description: A new Flutter application.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  http: ^0.12.2
+  url_launcher: ^5.7.10
+  cached_network_image: ^2.5.0
+  share: ^0.6.5+4
+  shared_preferences: ^0.5.12+4
+  webview_flutter: ^1.0.7
+  animations: ^1.1.2
+
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  integration_test:
+#    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+  fonts:
+   - family: UnifrakturCook
+     fonts:
+       - asset: fonts\UnifrakturCook-Bold.ttf
+   - family: RacingSansOne
+     fonts:
+       - asset: fonts\RacingSansOne-Regular.ttf
+   - family: BerkshireSwash
+     fonts:
+       - asset: fonts\BerkshireSwash-Regular.ttf
+
