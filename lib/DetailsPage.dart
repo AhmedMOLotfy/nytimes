@@ -86,10 +86,14 @@ class _DetailsPageState extends State<DetailsPage> {
                   TextButton(
                     child: Text(widget.results.shortUrl),
                     onPressed: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return WebV(url: widget.results.url);
-                      }));
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return WebV(url: widget.results.url);
+                          },
+                        ),
+                      );
                     },
                   ),
                   IconButton(

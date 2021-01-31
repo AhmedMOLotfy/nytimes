@@ -14,9 +14,6 @@ class _WebVState extends State<WebV> {
   Completer<WebViewController> _controller = Completer<WebViewController>();
   @override
   void initState() {
-    // if (Platform.isAndroid) {
-    //   WebView.platform = SurfaceAndroidWebView();
-    // }
     super.initState();
   }
 

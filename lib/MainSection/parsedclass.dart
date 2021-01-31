@@ -72,9 +72,6 @@ class Results {
   factory Results.fromJson(Map<String, dynamic> json) {
     var list = json['multimedia'] as List;
     List<MultiMedia> data = list.map((i) => MultiMedia.fromJson(i)).toList();
-    //var list = parsedJson['images'] as List;
-    // print(list.runtimeType);
-    // returns List<dynamic>List<Image> imagesList = list.map((i) => Image.fromJson(i)).toList();
 
     return Results(
       section: json['section'],
