@@ -4,9 +4,6 @@ import 'package:nytimes/MainSection/parsedclass.dart';
 import 'package:http/http.dart' as http;
 
 Future<NYTimes> fetchAlbum() async {
-  //.get(
-  //       '');
-  //
   final response = await http.get(Uri.parse(
       "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=JXk3Kf2GgZZgmm8uTAYvoPmTliNxgCTL"));
   if (response.statusCode == 200) {
