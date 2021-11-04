@@ -29,7 +29,7 @@ class _DetailsPageState extends State<DetailsPage> {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
-                fontFamily: 'BerkshireSwash',
+                fontFamily: 'RacingSansOne',
               ),
             ),
           ),
